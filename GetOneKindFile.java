@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+////将baseDir中包括子目录中的指定后缀名的文件提取到destDir中
 public class GetOneKindFile {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
